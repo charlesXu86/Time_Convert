@@ -15,7 +15,7 @@ setup(
     description="Time convert for Chinese test",
     long_description="...",
     license="MIT Licence",
-    url="http://test.com",
+    url="https://github.com/charlesXu86/Time_Convert",
     author="xu",
     author_email="charlesxu86@163.com",
     packages=['', 'resource'],
