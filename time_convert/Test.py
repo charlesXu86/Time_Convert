@@ -6,7 +6,7 @@
 @time: 2019/05/23
 """
 
-from TimeNormalizer import TimeNormalizer # 引入包
+from time_convert.TimeNormalizer import TimeNormalizer # 引入包
 
 tn = TimeNormalizer()
 

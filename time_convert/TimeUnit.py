@@ -9,13 +9,13 @@
 import regex as re
 import arrow
 import copy
-from TimePoint import TimePoint
-from RangeTimeEnum import RangeTimeEnum
+from time_convert.TimePoint import TimePoint
+from time_convert.RangeTimeEnum import RangeTimeEnum
 
 try:
-    from LunarSolarConverter.LunarSolarConverter import *
+    from time_convert.LunarSolarConverter import *
 except:
-    from LunarSolarConverter import *
+    from time_convert.LunarSolarConverter import *
 
 
 # 时间语句分析

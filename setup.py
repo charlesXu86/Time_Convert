@@ -9,17 +9,17 @@
 from setuptools import setup
 
 setup(
-    name="Time_Convert",
-    version="1.1.0",
+    name="time-convert",
+    version="1.1.1",
     keywords=("time", "nlp"),
-    description="Time convert for Chinese test",
+    description="Time convert for Chinese text",
     long_description="...",
     license="MIT Licence",
     url="https://github.com/charlesXu86/Time_Convert",
     author="xu",
     author_email="charlesxu86@163.com",
-    packages=['', 'resource'],
-    package_data={'resource': ['*.json', '*.pkl']},
+    packages={'time_convert': 'time_convert'},
+    package_data={'time_convert': ['resource/*.json', 'resource/*.pkl', 'resource/*.txt']},
     include_package_data=True,
     platforms="any",
     install_requires=['regex>=2017',

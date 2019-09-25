@@ -12,9 +12,9 @@ import arrow
 import json
 import os
 
-from StringPreHandler import StringPreHandler
-from TimePoint import TimePoint
-from TimeUnit import TimeUnit
+from time_convert.StringPreHandler import StringPreHandler
+from time_convert.TimePoint import TimePoint
+from time_convert.TimeUnit import TimeUnit
 
 # 时间表达式识别的主要工作类
 class TimeNormalizer:
