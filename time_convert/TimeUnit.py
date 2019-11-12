@@ -113,11 +113,11 @@ class TimeUnit:
         :return:
         """
         # 一位数表示的年份
-        rule = u"(?<![0-9])[0-9]{1}(?=年)"
+        rule = u"(?<![0-9])[0-9]{1}(?=年$)"       # 加了 $
         pattern = re.compile(rule)
         match = pattern.search(self.exp_time)
         if match is not None:
-            # self.normalizer.isTimeSpan = True     # 改动
+            self.normalizer.isTimeSpan = True
             year = int(match.group())
             self.tp.tunit[0] = year
 
