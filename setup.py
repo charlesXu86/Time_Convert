@@ -10,7 +10,7 @@ from setuptools import setup
 
 setup(
     name="time-convert",
-    version="1.1.2",
+    version="1.2.0",
     keywords=("time", "nlp"),
     description="Time convert for Chinese text",
     long_description="...",
@@ -23,7 +23,7 @@ setup(
     include_package_data=True,
     platforms="any",
     install_requires=['regex>=2017',
-                      'arrow>=0.10'],
+                      'arrow==0.14.2'],
     zip_safe=False,
     classifiers=[
             'Programming Language :: Python :: 2.6',
@@ -31,3 +31,4 @@ setup(
             'Programming Language :: Python :: 3.6'
         ]
 )
+print("Welcome to time convert!")
