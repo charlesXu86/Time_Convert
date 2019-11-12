@@ -117,7 +117,7 @@ class TimeUnit:
         pattern = re.compile(rule)
         match = pattern.search(self.exp_time)
         if match is not None:
-            self.normalizer.isTimeSpan = True
+            # self.normalizer.isTimeSpan = True     # 改动
             year = int(match.group())
             self.tp.tunit[0] = year
 
