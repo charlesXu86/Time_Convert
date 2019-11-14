@@ -101,7 +101,7 @@ class StringPreHandler:
         for m in match:
             group = m.group()
             s = group.split(u"百")
-            s = filter(None, s)
+            s = list(filter(None, s))
             num = 0
             if len(s) == 1:
                 hundred = int(s[0])
@@ -117,7 +117,7 @@ class StringPreHandler:
         for m in match:
             group = m.group()
             s = group.split(u"千")
-            s = filter(None, s)
+            s = list(filter(None, s))
             num = 0
             if len(s) == 1:
                 thousand = int(s[0])
@@ -133,7 +133,7 @@ class StringPreHandler:
         for m in match:
             group = m.group()
             s = group.split(u"万")
-            s = filter(None, s)
+            s = list(filter(None, s))         # py2 的filter返回的是一个列表，py3返回的是一个对象
             num = 0
             if len(s) == 1:
                 tenthousand = int(s[0])
