@@ -14,7 +14,6 @@ basedir = str(pathlib.Path(os.path.abspath(__file__)).parent)
 
 def _version():
     ns = {}
-    ns = {}
     with open(convert_path("time_convert/version.py"), "r") as fh:
         exec(fh.read(), ns)
     return ns['__version__']
@@ -30,6 +29,7 @@ setup(
     keywords=("time", "nlp"),
     description="Time convert for Chinese text",
     long_description=long_description,
+    long_description_content_type="text/markdown",
     license="MIT Licence",
     url="https://github.com/charlesXu86/Time_Convert",
     author="xu",
