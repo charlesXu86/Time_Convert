@@ -45,7 +45,7 @@ class StringPreHandler:
         for m in match:
             group = m.group()
             s = group.split(u"万")
-            s = filter(None, s)
+            s = list(filter(None, s))
             num = 0
             if len(s) == 2:
                 num += cls.wordToNumber(s[0]) * 10000 + cls.wordToNumber(s[1]) * 1000
@@ -56,7 +56,7 @@ class StringPreHandler:
         for m in match:
             group = m.group()
             s = group.split(u"千")
-            s = filter(None, s)
+            s = list(filter(None, s))
             num = 0
             if len(s) == 2:
                 num += cls.wordToNumber(s[0]) * 1000 + cls.wordToNumber(s[1]) * 100
@@ -67,7 +67,7 @@ class StringPreHandler:
         for m in match:
             group = m.group()
             s = group.split(u"百")
-            s = filter(None, s)
+            s = list(filter(None, s))
             num = 0
             if len(s) == 2:
                 num += cls.wordToNumber(s[0]) * 100 + cls.wordToNumber(s[1]) * 10
