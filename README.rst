@@ -97,7 +97,7 @@ To do list
    * 4、下礼拜
    * 5、在返回关键词的时候添加上index
 
-.. |Build Status| image:: https://travis-ci.org/charlesXu86/Time_Convert/.svg?branch=master
+.. |Build Status| image:: https://travis-ci.org/charlesXu86/Time_Convert.svg?branch=master
    :target: https://travis-ci.org/charlesXu86/Time_Convert
 .. |Coverage Status| image:: https://coveralls.io/repos/charlesXu86/Time_Convert/badge.svg?branch=master
    :target: https://coveralls.io/r/charlesXu86/Time_Convert?branch=master
