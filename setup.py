@@ -20,7 +20,7 @@ def _version():
 
 __version__ = _version()
 
-with open("README.md", "r") as lr:
+with open("README.rst", "r") as lr:
     long_description = lr.read()
 
 setup(
@@ -29,7 +29,7 @@ setup(
     keywords=("time", "nlp"),
     description="Time convert for Chinese text",
     long_description=long_description,
-    long_description_content_type="text/markdown",
+    long_description_content_type="text/x-rst",
     license="MIT Licence",
     url="https://github.com/charlesXu86/Time_Convert",
     author="xu",
