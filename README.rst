@@ -85,12 +85,13 @@ Update NEWS
 
 
 To do list
--------------------
-   .. 1、timedelta的拼接
-   .. 2、'一会儿'等口语化表述时间的提取
-   .. 3、过两天，明天吧
-   .. 4、下礼拜
-   .. 5、在返回关键词的时候添加上index
+===================
+
+   * 1、timedelta的拼接
+   * 2、'一会儿'等口语化表述时间的提取
+   * 3、过两天，明天吧
+   * 4、下礼拜
+   * 5、在返回关键词的时候添加上index
 
 .. |Build Status| image:: https://travis-ci.org/charlesXu86/Time_Convert/.svg?branch=master
    :target: https://travis-ci.org/charlesXu86/Time_Convert
