@@ -19,7 +19,6 @@ install:
     - pip install --upgrade pip setuptools
     - pip install tensorflow
     - pip install -r requirements.txt
-    - pip install -r requirements-dev.txt
 
 # command to run tests
 # require 100% coverage (not including test files) to pass Travis CI test
