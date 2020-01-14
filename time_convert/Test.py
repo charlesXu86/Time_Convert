@@ -34,9 +34,14 @@ txt3 = '过两个月再说'
 txt4 = '要不还是过两天吧'
 txt5 = '后天吧'
 txt6 = '明天上午10点'
+txt7 = '最近去看看'
+txt8 = '过几天还'
+txt9 = '1.3八几千块钱'
+txt10 = '应该是25个点'
+txt11 = '明天天气，后天呢'
 
-timeBase= '2019-11-24 16:30:29'
-res = tn.parse(target=txt6)
+# timeBase= '2019-11-24 16:30:29'
+res = tn.parse(target=txt11)
 print(res)
 
 #
