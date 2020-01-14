@@ -100,8 +100,8 @@ To do list
 .. |Build Status| image:: https://travis-ci.org/charlesXu86/Time_Convert/.svg?branch=master
    :target: https://travis-ci.org/charlesXu86/Time_Convert
 .. |Coverage Status| image:: https://coveralls.io/repos/charlesXu86/Time_Convert/badge.svg?branch=master
-   :target: https://coveralls.io/r/kpe/bert-for-tf2?branch=master
+   :target: https://coveralls.io/r/charlesXu86/Time_Convert?branch=master
 .. |Version Status| image:: https://badge.fury.io/py/time-convert.svg
-   :target: https://badge.fury.io/py/bert-for-tf2
-.. |Python Versions| image:: https://img.shields.io/pypi/pyversions/bert-for-tf2.svg
-.. |Downloads| image:: https://img.shields.io/pypi/dm/bert-for-tf2.svg
+   :target: https://badge.fury.io/py/time-convert
+.. |Python Versions| image:: https://img.shields.io/pypi/pyversions/time-convert.svg
+.. |Downloads| image:: https://img.shields.io/pypi/dm/time-convert.svg
