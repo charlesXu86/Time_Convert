@@ -62,14 +62,18 @@ eg2：
 Mark
 >>>>>>>>>>
 
-   1、时间解析的默认basetime时间为请求的当前时间。
-   2、也可以指定basetime，basetime的格式为：**YYYY-MM-DD 00:00:00**
-   3、如果不指定basetime，则默认basetime为当前请求时间
+   * 1、时间解析的默认basetime时间为请求的当前时间。
+
+   * 2、也可以指定basetime，basetime的格式为：**YYYY-MM-DD 00:00:00**
+
+   * 3、如果不指定basetime，则默认basetime为当前请求时间
 
 
 返回值类型说明
----------------------
+===================
+
 Time_Convert总的会返回四种类型的情况：
+
    * 1、timespan
    * 2、timestamp
    * 3、timedelta
@@ -95,9 +99,9 @@ To do list
 
 .. |Build Status| image:: https://travis-ci.org/charlesXu86/Time_Convert/.svg?branch=master
    :target: https://travis-ci.org/charlesXu86/Time_Convert
-.. |Coverage Status| image:: https://coveralls.io/repos/kpe/bert-for-tf2/badge.svg?branch=master
+.. |Coverage Status| image:: https://coveralls.io/repos/charlesXu86/Time_Convert/badge.svg?branch=master
    :target: https://coveralls.io/r/kpe/bert-for-tf2?branch=master
-.. |Version Status| image:: https://badge.fury.io/py/bert-for-tf2.svg
+.. |Version Status| image:: https://badge.fury.io/py/time-convert.svg
    :target: https://badge.fury.io/py/bert-for-tf2
 .. |Python Versions| image:: https://img.shields.io/pypi/pyversions/bert-for-tf2.svg
 .. |Downloads| image:: https://img.shields.io/pypi/dm/bert-for-tf2.svg
