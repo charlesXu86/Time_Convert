@@ -19,6 +19,9 @@ Install
 
    pip install time-convert
 
+   import time_convert as tv
+   print(tv.__version__)    # 查看版本信息
+
 
 Usage
 ---------------------
