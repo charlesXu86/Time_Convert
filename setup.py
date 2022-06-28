@@ -39,7 +39,7 @@ setup(
     include_package_data=True,
     platforms="any",
     install_requires=['regex>=2017',
-                      'arrow==0.13.1'],
+                      'arrow==0.15.1'],
     zip_safe=False,
     classifiers=[
         "Development Status :: 5 - Production/Stable",
